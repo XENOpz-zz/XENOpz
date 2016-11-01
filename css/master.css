@@ -1,0 +1,105 @@
+/*************************************
+CONTENTS
+1. Format
+2. Navigation
+3. Home CSS
+4. Game Dev CSS
+5. Level Design CSS
+6. Web Design CSS
+**************************************/
+
+
+/*************************************/
+/***************FORMAT****************/
+/*************************************/
+
+html, body {margin: 0; padding: 0;}
+body {font-family: verdana;
+	font-size: 12px;
+	color: #000000;
+	background: #EEEEEE;
+	text-align: center;
+}
+
+h1 {clear: both; text-align: center;}
+
+p.contact-details {text-align: right;}
+
+/*************************************/
+/*************NAVIGATION**************/
+/*************************************/
+
+#back-home {margin-bottom: 15px; float: left; width: 200px; height: 50px; background-image: url(../images/nav/back_home.png); background-position: 0px 0px}
+#back-home:hover {margin-bottom: 15px; float: left; width: 200px; height: 50px; background-image: url(../images/nav/back_home.png); background-position: 0px 50px}
+
+#back {margin-bottom: 15px; float: left; width: 200px; height: 50px; background-image: url(../images/nav/back.png); background-position: 0px 0px}
+#back:hover {margin-bottom: 15px; float: left; width: 200px; height: 50px; background-image: url(../images/nav/back.png); background-position: 0px 50px}
+
+/*************************************/
+/**************HOME CSS***************/
+/*************************************/
+
+#page-container {position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 900px; height: 600px; margin: auto; background: #EEEEEE; text-align: left;}
+#page-container-flex {position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 70%; height: 80%; margin: auto; background: #EEEEEE; text-align: left;}
+
+#midsection {width: 900px; height: 200px; background-image: url(../images/index/midsection.png); background-position: 0px 0px}
+#midsection:hover {width: 900px; height: 200px; background-image: url(../images/index/midsection.png); background-position: 0px 200px}
+
+#bottom-left {float: left; width: 450px; height: 150px; background-image: url(../images/index/bottom_left.png); background-position: 0px 0px}
+#bottom-left:hover {width: 450px; height: 150px; background-image: url(../images/index/bottom_left.png); background-position: 0px 150px}
+
+#bottom-right {float: right; width: 450px; height: 150px; background-image: url(../images/index/bottom_right.png); background-position: 0px 0px}
+#bottom-right:hover {width: 450px; height: 150px; background-image: url(../images/index/bottom_right.png); background-position: 0px 150px}
+
+/*************************************/
+/************GAME DEV CSS*************/
+/*************************************/
+
+img.gDevImg {width: 100%; max-width: 1277px;}
+
+img.samuraiImg {width: 100%; max-width: 795px;}
+
+#oc-button {width: 900px; height: 200px; background-image: url(../images/games/OC.png); background-position: 0px 0px}
+#oc-button:hover {width: 900px; height: 200px; background-image: url(../images/games/OC.png); background-position: 0px 200px}
+
+#hb-button {width: 900px; height: 200px; background-image: url(../images/games/HB.png); background-position: 0px 0px}
+#hb-button:hover {width: 900px; height: 200px; background-image: url(../images/games/HB.png); background-position: 0px 200px}
+
+#etrl-button {width: 900px; height: 200px; background-image: url(../images/games/ETRL.png); background-position: 0px 0px}
+#etrl-button:hover {width: 900px; height: 200px; background-image: url(../images/games/ETRL.png); background-position: 0px 200px}
+
+#proj-ssg-button {width: 900px; height: 200px; background-image: url(../images/games/SSG.png); background-position: 0px 0px}
+#proj-ssg-button:hover {width: 900px; height: 200px; background-image: url(../images/games/SSG.png); background-position: 0px 200px}
+
+#sol-def-button {width: 900px; height: 200px; background-image: url(../images/games/SolDef.png); background-position: 0px 0px}
+#sol-def-button:hover {width: 900px; height: 200px; background-image: url(../images/games/SolDef.png); background-position: 0px 200px}
+
+#mm-button {width: 900px; height: 200px; background-image: url(../images/games/MM.png); background-position: 0px 0px}
+#mm-button:hover {width: 900px; height: 200px; background-image: url(../images/games/MM.png); background-position: 0px 200px}
+
+#samurai-button {width: 900px; height: 200px; background-image: url(../images/games/samurai.png); background-position: 0px 0px}
+#samurai-button:hover {width: 900px; height: 200px; background-image: url(../images/games/samurai.png); background-position: 0px 200px}
+
+/*************************************/
+/**********LEVEL DESIGN CSS***********/
+/*************************************/
+
+img.lDesignImg {width: 100%; max-width: 1280px; }
+
+#dm-frost-button {width: 900px; height: 200px; background-image: url(../images/UT3/frost.png); background-position: 0px 0px}
+#dm-frost-button:hover {width: 900px; height: 200px; background-image: url(../images/UT3/frost.png); background-position: 0px 200px}
+
+#dm-raptor-button {width: 900px; height: 200px; background-image: url(../images/UT3/raptor.png); background-position: 0px 0px}
+#dm-raptor-button:hover {width: 900px; height: 200px; background-image: url(../images/UT3/raptor.png); background-position: 0px 200px}
+
+#war-worlds-button {width: 900px; height: 200px; background-image: url(../images/UT3/worlds.png); background-position: 0px 0px}
+#war-worlds-button:hover {width: 900px; height: 200px; background-image: url(../images/UT3/worlds.png); background-position: 0px 200px}
+
+#vctf-typhoon-button {width: 900px; height: 200px; background-image: url(../images/UT3/typhoon.png); background-position: 0px 0px}
+#vctf-typhoon-button:hover {width: 900px; height: 200px; background-image: url(../images/UT3/typhoon.png); background-position: 0px 200px}
+
+/*************************************/
+/***********WEB DESIGN CSS************/
+/*************************************/
+#web-left{float:left; width:40%; margin:5%}
+#web-right{float:right; width:40%; margin:5%}
